@@ -1,0 +1,114 @@
+.search-bar1{
+    width: 160px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 189, 189);
+    color: grey;
+    outline: none;
+}
+
+.search-bar2{
+    margin-top: 30px;
+    color: rgb(190, 185, 185);
+    border-color: rgb(190, 185, 185);
+    outline: none;
+    border-width: 0px;
+    border-radius: 30px;
+    border: none;
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.40);
+}
+
+.search-bar3{
+    margin-top: 20px;
+    outline: none;
+    vertical-align: middle;
+    width: 200px;
+    height: 20px;
+    padding-left: 5px;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.25);
+    
+}
+
+.dog-img{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: contain;
+    vertical-align: middle;
+
+}
+
+.tweet-button{
+    font-family: Arial;
+    vertical-align: middle;
+    margin-top: 20px;
+    border-radius: 30px;
+    border:none;
+    background-color:rgb(85, 149, 233);
+    color: white;
+    margin-left:5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    transition: box-shadow 0.5s;
+}
+
+.tweet-button:hover{
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.25);
+}
+
+.tweet-button:active{
+    opacity: 0.8;
+}
+
+.font{
+    margin: bottom 100px; ;
+    font-family: arial;
+    color:rgb(151, 146, 146);
+    vertical-align;
+    vertical-align: middle;
+}
+
+.search-bar4{
+    width: 422px;
+    height: 30PX;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(151, 146, 146);
+    border-style: solid;
+    outline: none;
+}
+
+.agreejoin-button{
+    background-color: rgb(85, 149, 233);
+    color: white;
+    border:none;
+    border-radius: 30px;
+    width: 430px;
+    height: 40px;
+    transition: box-shadow 0.25s, color 0.25s, border-color 0.25s, background-color 0.25s;
+}
+
+.agreejoin-button:hover{
+box-shadow: 1px 1px 7px rgba(0,0,0,0.25);
+background-color: white;
+border-style: solid;
+border-width: 1px;
+border-color:rgb(85, 149, 233) ;
+color: rgb(85, 149, 233);
+}
+
+.agreejoin-button:active{
+color: rgb(17, 86, 190);
+border-color:rgb(17, 86, 190);
+}
