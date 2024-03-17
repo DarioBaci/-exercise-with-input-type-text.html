@@ -1,0 +1,68 @@
+
+.title-form{
+font-size: 30px;
+font-family: arial;
+}
+
+.destination-text,
+.location-text{
+display: block;
+margin-top: 8px;
+width: 300px;
+height: 40px;
+padding-left: 20px;
+color: rgb(104, 104, 104);
+font-size: 17px;
+border: none;
+background-color: rgb(224, 224, 224);
+border-radius: 2px;
+}
+
+.Request-button{
+margin-top: 30px;
+width: 150px;
+height: 40px;
+background-color: black;
+color: white;
+border:none;
+border-color: rgb(136, 124, 124);
+transition: box-shadow 0.5s, border-radius 0.5s, border-color 0.5s, color 0.5s, 
+background-color 0.5s, border-style 0.5s, border-radius 0.5s, border-width 0.5s;
+}
+
+.schedule-button{
+    font-weight: bold;
+width: 150px;
+height: 40px;
+border-style: solid;
+border:none;
+border-style: solid;
+border-color:rgb(224, 224, 224);
+
+background-color:rgb(224, 224, 224) ;
+transition: box-shadow 0.5s, border-radius 0.5s, border-color 0.5s, color 0.5s, background-color 0.5s;
+}
+
+.Request-button:hover{
+border-width: 1px;
+border-style: solid;
+border-radius: 1px;
+box-shadow: 1px 1px 7px rgba(0,0,0,0.25);
+}
+
+.Request-button:active{
+
+}
+
+.schedule-button:hover{
+border-style: solid;
+border-radius: 2px;
+border:all;
+border-color:grey;
+box-shadow: 1px 1px 7px rgba(0,0,0,0.25);
+}
+
+.schedule-button:active{
+    opacity: 0.6;
+
+}
